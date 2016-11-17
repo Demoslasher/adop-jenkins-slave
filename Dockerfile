@@ -24,6 +24,8 @@ RUN yum install -y which \
     git \
     wget \
     tar \
+    zip \
+    unzip \
     openldap-clients \
     openssl \
     python-pip && \
