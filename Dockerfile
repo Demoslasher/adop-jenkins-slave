@@ -28,8 +28,9 @@ RUN yum install -y which \
     unzip \
     openldap-clients \
     openssl \
-    python-pip && \
-    yum clean all
+    python-pip \
+    libxslt && \
+    yum clean all 
 
 RUN pip install awscli==1.10.19
 
